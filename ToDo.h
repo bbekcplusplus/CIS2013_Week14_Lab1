@@ -8,6 +8,7 @@ class ToDo {
 private:
 	string *list;
 	int length = 0;
+	int next = 0;
 public:
 	//Create list of length len
 	ToDo(int len);
