@@ -6,7 +6,11 @@ using namespace std;
 
 int main()
 {
-	chatr next = 'y';
+	char next = 'y';
+	int len = 0;
+
+	cout << "How long do yoy want your list" << endl;
+	cin >> len;
 
 	while (next != 'n')
 	{
@@ -20,9 +24,11 @@ int main()
 		{
 		case'a':
 			//add stuff to list
+			list.add("something");
 			break;
 		case'd':
 			//finish something in list
+			list.done();
 			break;
 		case'p':
 			//print list

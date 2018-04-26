@@ -28,6 +28,6 @@ void done() {
 //print list
 void print() {
 	for (int i = 0; i < next; i++) {
-
+		cout << "*" << list[i] << endl;
 	}
 }
